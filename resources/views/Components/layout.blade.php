@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bam</title>
+    <title>Home Page</title>
 </head>
 <body>
-    <h1>About</h1>
+    
+    <x-nav-link></x-nav-link>
+
+    {{ $slot }}
+
+
+
 </body>
 </html>
+
+
